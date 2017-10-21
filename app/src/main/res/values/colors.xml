@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Default colors from Android Studio -->
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+
+    <!-- Color scheme for app -->
+    <color name="black">#000000</color>
+    <color name="almostBlackPurple">#0d0009</color>
+    <color name="darkPurple">#58063f</color>
+    <color name="darkerPurple">#660047</color>
+    <color name="darkPink">#8c0062</color>
+    <color name="purple">#912e73</color>
+    <color name="pink">#b2007d</color>
+    <color name="lightPink">#d90098</color>
+    <color name="lighterPink">#ff00b2</color>
+    <color name="lightPurple">#c56eab</color>
+    <color name="superLightPurple">#f9d9ef</color>
+    <color name="white">#ffffff</color>
 </resources>
