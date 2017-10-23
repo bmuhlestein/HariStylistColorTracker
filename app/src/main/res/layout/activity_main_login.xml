@@ -6,14 +6,82 @@
     android:layout_height="match_parent"
     tools:context="com.example.muhlestein.haristylistcolortracker.MainLogin">
 
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    tools:layout_editor_absoluteY="0dp"
+    tools:layout_editor_absoluteX="8dp"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/pink_to_black_background">
 
-    <TextView
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hair Color Manager"
+            android:textSize="80sp"
+            android:textColor="@color/lightPurple"
+            android:id="@+id/my_text"
+            android:textAlignment="center"/>
+
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        android:textSize="46sp"
-        android:textColor="@color/lightPink"
-        android:fontFamily="@fontStyle/CookieMonster"/>
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_marginTop="400px"
+        android:background="@color/darkPink">
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="User Name:"
+            android:textSize="20sp"
+            android:textColor="@color/lighterPink"
+            android:paddingLeft="20px" />
+
+        <EditText
+            android:layout_width="450px"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:background="@color/darkPink"
+        android:paddingLeft="47px">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password:"
+            android:textSize="20sp"
+            android:textColor="@color/lighterPink"/>
+
+        <EditText
+            android:layout_width="450px"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="300px"
+        android:layout_height="125px"
+        android:text="Submit"
+        android:textSize="45px"
+        android:layout_marginTop="50px"
+        android:background="@color/darkPurple"
+        android:textColor="@color/lightPurple"
+        android:bottomRightRadius="25dp"
+        android:bottomLeftRadius="25dp"
+        android:topRightRadius="25dp"
+        android:topLeftRadius="25dp"/>
+
+</LinearLayout>
 
 </android.support.constraint.ConstraintLayout>
