@@ -14,7 +14,7 @@
         android:orientation="vertical"
         tools:layout_editor_absoluteY="8dp"
         tools:layout_editor_absoluteX="8dp"
-        android:background="@drawable/pink_to_black_background">
+        android:background="@drawable/sixtyseven_percent_opacity">
 
         <TextView
             android:layout_width="match_parent"
