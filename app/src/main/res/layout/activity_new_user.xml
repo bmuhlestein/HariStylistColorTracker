@@ -34,26 +34,29 @@
                 android:layout_marginBottom="30dp"/>
 
 
-                <LinearLayout
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:text="First Name:"
+                    android:textColor="@color/almostBlackPurple"
+                    android:textSize="20sp" />
+
+                <EditText
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_marginTop="40dp">
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="First Name:"
-                        android:textSize="20sp"
-                        android:textColor="@color/almostBlackPurple"
-                        android:layout_marginLeft="20dp"/>
-                    <EditText
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_marginRight="20dp"
-                        android:textAlignment="center"/>
-                </LinearLayout>
+                    android:layout_marginRight="20dp"
+                    android:textAlignment="center"
+                    android:id="@+id/new_user_first_name_edit"/>
+            </LinearLayout>
 
-                <LinearLayout
+            <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
@@ -68,7 +71,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginRight="20dp"
-                        android:textAlignment="center"/>
+                        android:textAlignment="center"
+                        android:id="@+id/new_user_last_name_edit"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -82,11 +86,14 @@
                         android:textSize="20sp"
                         android:textColor="@color/almostBlackPurple"
                         android:layout_marginLeft="20dp"/>
+
                     <EditText
+                        android:id="@+id/new_user_phone_edit"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginRight="20dp"
-                        android:textAlignment="center"/>
+                        android:textAlignment="center"
+                        />
                 </LinearLayout>
 
                 <LinearLayout
@@ -104,7 +111,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginRight="20dp"
-                        android:textAlignment="center"/>
+                        android:textAlignment="center"
+                        android:id="@+id/new_user_username_edit"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -122,7 +130,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginRight="20dp"
-                        android:textAlignment="center"/>
+                        android:textAlignment="center"
+                        android:id="@+id/new_user_password_edit"/>
                 </LinearLayout>
 
             <LinearLayout
@@ -140,7 +149,8 @@
                     android:background="@color/darkPurple"
                     android:textColor="@color/lightPurple"
                     android:layout_gravity="center"
-                    android:layout_marginRight="30dp"/>
+                    android:layout_marginRight="30dp"
+                    android:id="@+id/new_user_submit_btn"/>
 
                 <Button
                     android:layout_width="140dp"
@@ -149,7 +159,8 @@
                     android:textSize="20sp"
                     android:background="@color/darkPurple"
                     android:textColor="@color/lightPurple"
-                    android:layout_gravity="center"/>
+                    android:layout_gravity="center"
+                    android:id="@+id/new_user_cancel_btn"/>
             </LinearLayout>
 
         </LinearLayout>
